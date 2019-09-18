@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FileAccessor()
+comment0.text=\n\ Initializes\ a\ new\ file\ accessor\ \n\ with\ the\ default\ characteristics.\n
+comment1.params=fileName
+comment1.target=boolean\ setFileAccessor(java.lang.String)
+comment1.text=\n\ Prepares\ this\ file\ accessor\ to\ \n\ obtain\ data\ from\ the\ file\ with\ the\ given\ file\ name\n\ \n\ @param\ fileName\ the\ path\ of\ the\ wanted\ file\n\ @return\ true\ if\ we\ could\ establish\ both\ file\ and\ console\n
+comment2.params=
+comment2.target=java.lang.String\ getLineFromFile()
+comment2.text=\n\ Returns\ the\ next\ line\ from\ this\ file\ \n\ accessor's\ array\ list\ of\ file\ strings\n\ \n\ @return\ the\ next\ line,\ null\ if\ there\ are\ no\ more\ lines.\n
+comment3.params=
+comment3.target=int\ getStringLocationInFile()
+comment3.text=\n\ Returns\ the\ number\ of\ the\ file\ line\ of\n\ the\ string\ most\ recently\ returned.\n\ \n\ @return\ an\ integer\ specifying\ a\ file\ line.\n
+comment4.params=fileName
+comment4.target=boolean\ connectToFile(java.lang.String)
+comment4.text=\n\ Sets\ up\ the\ buffered\ reader\ for\ a\ file.\n\ \n\ @param\ fileName\ the\ path\ of\ the\ given\ file\n\ @return\ true\ if\ we\ could\ connect\ to\ the\ file.\n
+comment5.params=
+comment5.target=boolean\ getAllDataFromFile()
+comment5.text=\n\ Populates\ this\ accessor's\ array\ list\ of\ strings\ \n\ with\ the\ strings\ from\ the\ file.\n\ \n\ @return\ true\ if\ the\ console\ was\ established\n
+numComments=6

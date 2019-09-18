@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LineChecker()
+comment0.text=\n\ Constructs\ a\ new\ LineChecker.\n\ \n\ Nothing\ to\ do\ here...\n
+comment1.params=fileString
+comment1.target=int\ statusOfLine(java.lang.String)
+comment1.text=\n\ Returns\ the\ status\ of\ the\ given\ string.\n\ \n\ @param\ fileString\ a\ string\ from\ the\ file.\n\ @return\ the\ status,\ in\ the\ form\ of\ an\ integer.\ <br>\n\ Possible\ statuses\:\ <br>\n\ -\ Is\ valid;\ can\ be\ analyzed\ for\ data.\ <br>\n\ -\ Does\ not\ contain\ the\ required\ number\ of\ tokens.\ <br>\n\ -\ Ratings\ at\ the\ end\ of\ the\ string\n\ \ are\ not\ integers.\ <br>\n\ \ -\ Is\ part\ of\ the\ string\ set\ to\ be\ ignored.\n
+comment2.params=fileToken
+comment2.target=boolean\ validRating(java.lang.String[])
+comment2.text=\n\ Checks\ if\ every\ rating\ in\ the\n\ given\ array\ is\ an\ integer.\n\ \n\ @param\ fileToken\ the\ array\ that\ contains\ the\ ratings.\n\ @return\ true\ if\ every\ rating\ \n\ is\ an\ integer,\ false\ otherwise.\n
+numComments=3

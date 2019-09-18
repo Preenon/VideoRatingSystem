@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StatisticExtractor()
+comment0.text=\n\ Initializes\ a\ new\ extractor's\ state.\n\ \n\ Nothing\ to\ do\ here...\n
+comment1.params=video
+comment1.target=void\ extractStatistics(java.util.ArrayList)
+comment1.text=\n\ Calculates\ extra\ data\ based\ on\ each\ video\n\ and\ assigns\ these\ data\ to\ them.\n\ \n\ @param\ video\ an\ array\ list\ of\ video\ objects.\n
+comment2.params=rating
+comment2.target=int[]\ sumScores(int[][])
+comment2.text=\n\ Sums\ the\ scores\ of\ the\ rating\ array,\n\ and\ returns\ an\ array\ compiled\ of\ the\ sums.\n\ \n\ @param\ rating\ an\ array\ of\ integer\ arrays.\n\ @return\ an\ array\ of\ sums\ for\ each\ category.\n
+comment3.params=sum
+comment3.target=int\ calculateOveralllSum(int[])
+comment3.text=\n\ Calculates\ and\ returns\ the\n\ overall\ sum\ of\ the\ sums\ of\ each\ category.\n\ \n\ @param\ sum\ an\ array\ of\ sums\ for\ each\ category.\n\ @return\ the\ overall\ sum.\n
+comment4.params=sum\ rating
+comment4.target=int[]\ averageScores(int[],\ int[][])
+comment4.text=\n\ Averages\ the\ scores\ of\ the\ rating\ array,\n\ and\ returns\ an\ array\ compiled\ of\ the\ averages.\n\ \n\ @param\ sum\ an\ array\ of\ sums\ for\ each\ category.\n\ @param\ rating\ an\ array\ of\ integer\ arrays.\n\ @return\ an\ array\ of\ averages\ for\ each\ category.\n
+numComments=5
